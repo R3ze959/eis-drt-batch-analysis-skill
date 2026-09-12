@@ -1,0 +1,2 @@
+# The beta intentionally uses an exact, regression-tested dependency set.
+-r requirements.lock.txt

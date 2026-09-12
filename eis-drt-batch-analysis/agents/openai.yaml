@@ -1,0 +1,4 @@
+interface:
+  display_name: "EIS and DRT Batch Analysis"
+  short_description: "EIS/DRT data first, diagnostic plots, optional presentation"
+  default_prompt: "Use $eis-drt-batch-analysis to process these impedance files as requested, export data and diagnostics first, and ask before creating unrequested presentation figures."

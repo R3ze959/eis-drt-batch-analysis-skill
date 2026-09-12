@@ -1,0 +1,45 @@
+# Shared Origin-style defaults for battery electrochemistry figures.
+figure.facecolor: white
+axes.facecolor: white
+savefig.facecolor: white
+savefig.transparent: False
+
+font.family: Arial
+font.size: 24
+axes.labelsize: 36
+axes.titlesize: 30
+legend.fontsize: 24
+xtick.labelsize: 28
+ytick.labelsize: 28
+
+axes.edgecolor: black
+axes.linewidth: 2.2
+axes.grid: False
+axes.spines.left: True
+axes.spines.right: True
+axes.spines.bottom: True
+axes.spines.top: True
+
+xtick.direction: out
+ytick.direction: out
+xtick.top: False
+ytick.right: False
+xtick.minor.visible: True
+ytick.minor.visible: True
+xtick.major.size: 10
+ytick.major.size: 10
+xtick.minor.size: 6
+ytick.minor.size: 6
+xtick.major.width: 2.0
+ytick.major.width: 2.0
+xtick.minor.width: 1.5
+ytick.minor.width: 1.5
+
+lines.linewidth: 2.2
+lines.markersize: 8
+patch.linewidth: 1.8
+legend.frameon: False
+
+savefig.dpi: 600
+savefig.bbox: tight
+svg.fonttype: none

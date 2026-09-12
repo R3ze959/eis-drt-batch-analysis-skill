@@ -1,0 +1,37 @@
+# Validated baseline: CPython 3.11, source-only skill; no GUI dependency.
+# Pinned full dependency closure; a clean install is checked with pip check.
+asteval==1.0.10
+contourpy==1.3.3
+cvxopt==1.3.3
+cycler==0.12.1
+defusedxml==0.7.1
+dill==0.4.1
+et-xmlfile==2.0.0
+fonttools==4.63.0
+jinja2==3.1.6
+kiwisolver==1.5.0
+lmfit==1.3.4
+markupsafe==3.0.3
+matplotlib==3.11.1
+mpmath==1.3.0
+numdifftools==0.10.1
+numpy==2.4.6
+odfpy==1.4.1
+openpyxl==3.1.5
+packaging==26.3
+pandas==3.0.5
+patsy==1.0.2
+pillow==12.3.0
+pyimpspec==5.1.3
+pyparsing==3.3.2
+python-dateutil==2.9.0.post0
+schemdraw==0.23
+scipy==1.17.1
+six==1.17.0
+statsmodels==0.14.6
+sympy==1.14.0
+tabulate==0.10.0
+uncertainties==3.2.3
+xdg-base-dirs==6.0.2
+# pandas requires timezone data on Windows; also fingerprint its installed version.
+tzdata==2026.3; sys_platform == "win32"

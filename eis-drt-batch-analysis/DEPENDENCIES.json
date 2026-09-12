@@ -1,0 +1,415 @@
+{
+  "baseline": "CPython 3.11 macOS arm64",
+  "not_vendored": true,
+  "conditional_packages": [
+    {
+      "name": "tzdata",
+      "version": "2026.3",
+      "marker": "sys_platform == 'win32'",
+      "declared_license_summary": "Apache-2.0",
+      "source": "https://pypi.org/project/tzdata/2026.3/",
+      "reason": "pandas Windows dependency; locked and fingerprinted when active",
+      "verification": "Upstream release metadata and static platform-marker closure; not Windows execution"
+    }
+  ],
+  "packages": [
+    {
+      "name": "asteval",
+      "version": "1.0.10",
+      "declared_license_summary": "MIT",
+      "classifiers": [],
+      "project_urls": [
+        "Homepage,  https://github.com/lmfit/asteval",
+        "Documentation, https://lmfit.github.io/asteval/",
+        "Tracker, https://github.com/lmfit/asteval/issues"
+      ]
+    },
+    {
+      "name": "contourpy",
+      "version": "1.3.3",
+      "declared_license_summary": "BSD 3-Clause License",
+      "classifiers": [
+        "License :: OSI Approved :: BSD License"
+      ],
+      "project_urls": [
+        "Homepage, https://github.com/contourpy/contourpy",
+        "Changelog, https://contourpy.readthedocs.io/en/latest/changelog.html",
+        "Documentation, https://contourpy.readthedocs.io",
+        "Repository, https://github.com/contourpy/contourpy"
+      ]
+    },
+    {
+      "name": "cvxopt",
+      "version": "1.3.3",
+      "declared_license_summary": "CVXOPT version 1.3",
+      "classifiers": [],
+      "project_urls": [
+        "Homepage, https://cvxopt.org",
+        "Source, https://github.com/cvxopt/cvxopt"
+      ]
+    },
+    {
+      "name": "cycler",
+      "version": "0.12.1",
+      "declared_license_summary": "Copyright (c) 2015, matplotlib project",
+      "classifiers": [
+        "License :: OSI Approved :: BSD License"
+      ],
+      "project_urls": [
+        "homepage, https://matplotlib.org/cycler/",
+        "repository, https://github.com/matplotlib/cycler"
+      ]
+    },
+    {
+      "name": "defusedxml",
+      "version": "0.7.1",
+      "declared_license_summary": "PSFL",
+      "classifiers": [
+        "License :: OSI Approved :: Python Software Foundation License"
+      ],
+      "project_urls": []
+    },
+    {
+      "name": "dill",
+      "version": "0.4.1",
+      "declared_license_summary": "BSD-3-Clause",
+      "classifiers": [
+        "License :: OSI Approved :: BSD License"
+      ],
+      "project_urls": [
+        "Documentation, http://dill.rtfd.io",
+        "Source Code, https://github.com/uqfoundation/dill",
+        "Bug Tracker, https://github.com/uqfoundation/dill/issues"
+      ]
+    },
+    {
+      "name": "et_xmlfile",
+      "version": "2.0.0",
+      "declared_license_summary": "MIT",
+      "classifiers": [
+        "License :: OSI Approved :: MIT License"
+      ],
+      "project_urls": [
+        "Documentation, https://openpyxl.pages.heptapod.net/et_xmlfile/",
+        "Source, https://foss.heptapod.net/openpyxl/et_xmlfile",
+        "Tracker, https://foss.heptapod.net/openpyxl/et_xmfile/-/issues"
+      ]
+    },
+    {
+      "name": "fonttools",
+      "version": "4.63.0",
+      "declared_license_summary": "MIT",
+      "classifiers": [],
+      "project_urls": []
+    },
+    {
+      "name": "Jinja2",
+      "version": "3.1.6",
+      "declared_license_summary": "see distribution license files",
+      "classifiers": [
+        "License :: OSI Approved :: BSD License"
+      ],
+      "project_urls": [
+        "Changes, https://jinja.palletsprojects.com/changes/",
+        "Chat, https://discord.gg/pallets",
+        "Documentation, https://jinja.palletsprojects.com/",
+        "Donate, https://palletsprojects.com/donate",
+        "Source, https://github.com/pallets/jinja/"
+      ]
+    },
+    {
+      "name": "kiwisolver",
+      "version": "1.5.0",
+      "declared_license_summary": "=========================",
+      "classifiers": [
+        "License :: OSI Approved :: BSD License"
+      ],
+      "project_urls": [
+        "homepage, https://github.com/nucleic/kiwi",
+        "documentation, https://kiwisolver.readthedocs.io/en/latest/",
+        "repository, https://github.com/nucleic/kiwi",
+        "changelog, https://github.com/nucleic/kiwi/blob/main/releasenotes.rst"
+      ]
+    },
+    {
+      "name": "lmfit",
+      "version": "1.3.4",
+      "declared_license_summary": "BSD-3-Clause",
+      "classifiers": [],
+      "project_urls": [
+        "Homepage, https://lmfit.github.io//lmfit-py/",
+        "Documentation, https://lmfit.github.io/lmfit-py/",
+        "Changelog, https://lmfit.github.io/lmfit-py/whatsnew.html"
+      ]
+    },
+    {
+      "name": "MarkupSafe",
+      "version": "3.0.3",
+      "declared_license_summary": "BSD-3-Clause",
+      "classifiers": [],
+      "project_urls": [
+        "Donate, https://palletsprojects.com/donate",
+        "Documentation, https://markupsafe.palletsprojects.com/",
+        "Changes, https://markupsafe.palletsprojects.com/page/changes/",
+        "Source, https://github.com/pallets/markupsafe/",
+        "Chat, https://discord.gg/pallets"
+      ]
+    },
+    {
+      "name": "matplotlib",
+      "version": "3.11.1",
+      "declared_license_summary": "License agreement for matplotlib versions 1.3.0 and later",
+      "classifiers": [
+        "License :: OSI Approved :: Python Software Foundation License"
+      ],
+      "project_urls": [
+        "Homepage, https://matplotlib.org",
+        "Download, https://matplotlib.org/stable/install/index.html",
+        "Documentation, https://matplotlib.org",
+        "Source Code, https://github.com/matplotlib/matplotlib",
+        "Bug Tracker, https://github.com/matplotlib/matplotlib/issues",
+        "Forum, https://discourse.matplotlib.org/",
+        "Donate, https://numfocus.org/donate-to-matplotlib"
+      ]
+    },
+    {
+      "name": "mpmath",
+      "version": "1.3.0",
+      "declared_license_summary": "BSD",
+      "classifiers": [
+        "License :: OSI Approved :: BSD License"
+      ],
+      "project_urls": [
+        "Source, https://github.com/fredrik-johansson/mpmath",
+        "Tracker, https://github.com/fredrik-johansson/mpmath/issues",
+        "Documentation, http://mpmath.org/doc/current/"
+      ]
+    },
+    {
+      "name": "numdifftools",
+      "version": "0.10.1",
+      "declared_license_summary": "new BSD",
+      "classifiers": [
+        "License :: OSI Approved :: BSD License"
+      ],
+      "project_urls": [
+        "repository, https://github.com/pbrod/numdifftools/",
+        "documentation, https://numdifftools.readthedocs.io/en/latest/"
+      ]
+    },
+    {
+      "name": "numpy",
+      "version": "2.4.6",
+      "declared_license_summary": "BSD-3-Clause AND 0BSD AND MIT AND Zlib AND CC0-1.0",
+      "classifiers": [],
+      "project_urls": [
+        "homepage, https://numpy.org",
+        "documentation, https://numpy.org/doc/",
+        "source, https://github.com/numpy/numpy",
+        "download, https://pypi.org/project/numpy/#files",
+        "tracker, https://github.com/numpy/numpy/issues",
+        "release notes, https://numpy.org/doc/stable/release"
+      ]
+    },
+    {
+      "name": "odfpy",
+      "version": "1.4.1",
+      "declared_license_summary": "see distribution license files",
+      "classifiers": [
+        "License :: OSI Approved :: Apache Software License",
+        "License :: OSI Approved :: GNU General Public License (GPL)",
+        "License :: OSI Approved :: GNU Library or Lesser General Public License (LGPL)"
+      ],
+      "project_urls": []
+    },
+    {
+      "name": "openpyxl",
+      "version": "3.1.5",
+      "declared_license_summary": "MIT",
+      "classifiers": [
+        "License :: OSI Approved :: MIT License"
+      ],
+      "project_urls": [
+        "Documentation, https://openpyxl.readthedocs.io/en/stable/",
+        "Source, https://foss.heptapod.net/openpyxl/openpyxl",
+        "Tracker, https://foss.heptapod.net/openpyxl/openpyxl/-/issues"
+      ]
+    },
+    {
+      "name": "packaging",
+      "version": "26.3",
+      "declared_license_summary": "Apache-2.0 OR BSD-2-Clause",
+      "classifiers": [],
+      "project_urls": [
+        "Documentation, https://packaging.pypa.io/",
+        "Source, https://github.com/pypa/packaging"
+      ]
+    },
+    {
+      "name": "pandas",
+      "version": "3.0.5",
+      "declared_license_summary": "BSD 3-Clause License",
+      "classifiers": [
+        "License :: OSI Approved :: BSD License"
+      ],
+      "project_urls": [
+        "homepage, https://pandas.pydata.org",
+        "documentation, https://pandas.pydata.org/docs/",
+        "repository, https://github.com/pandas-dev/pandas"
+      ]
+    },
+    {
+      "name": "patsy",
+      "version": "1.0.2",
+      "declared_license_summary": "2-clause BSD",
+      "classifiers": [
+        "License :: OSI Approved :: BSD License"
+      ],
+      "project_urls": []
+    },
+    {
+      "name": "pillow",
+      "version": "12.3.0",
+      "declared_license_summary": "MIT-CMU",
+      "classifiers": [],
+      "project_urls": [
+        "Release notes, https://pillow.readthedocs.io/en/stable/releasenotes/index.html",
+        "Changelog, https://github.com/python-pillow/Pillow/releases",
+        "Documentation, https://pillow.readthedocs.io",
+        "Funding, https://tidelift.com/subscription/pkg/pypi-pillow?utm_source=pypi-pillow&utm_medium=pypi",
+        "Homepage, https://python-pillow.github.io",
+        "Mastodon, https://fosstodon.org/@pillow",
+        "Source, https://github.com/python-pillow/Pillow"
+      ]
+    },
+    {
+      "name": "pyimpspec",
+      "version": "5.1.3",
+      "declared_license_summary": "GPLv3",
+      "classifiers": [
+        "License :: OSI Approved :: GNU General Public License v3 (GPLv3)"
+      ],
+      "project_urls": [
+        "Documentation, https://vyrjana.github.io/pyimpspec/api/",
+        "Source Code, https://github.com/vyrjana/pyimpspec",
+        "Bug Tracker, https://github.com/vyrjana/pyimpspec/issues"
+      ]
+    },
+    {
+      "name": "pyparsing",
+      "version": "3.3.2",
+      "declared_license_summary": "MIT",
+      "classifiers": [],
+      "project_urls": [
+        "Documentation, https://pyparsing-docs.readthedocs.io/en/latest/",
+        "Homepage, https://github.com/pyparsing/pyparsing/",
+        "Source, https://github.com/pyparsing/pyparsing.git"
+      ]
+    },
+    {
+      "name": "python-dateutil",
+      "version": "2.9.0.post0",
+      "declared_license_summary": "Dual License",
+      "classifiers": [
+        "License :: OSI Approved :: BSD License",
+        "License :: OSI Approved :: Apache Software License"
+      ],
+      "project_urls": [
+        "Documentation, https://dateutil.readthedocs.io/en/stable/",
+        "Source, https://github.com/dateutil/dateutil"
+      ]
+    },
+    {
+      "name": "schemdraw",
+      "version": "0.23",
+      "declared_license_summary": "MIT",
+      "classifiers": [],
+      "project_urls": [
+        "Documentation, https://schemdraw.readthedocs.io",
+        "Source Code, https://github.com/cdelker/schemdraw"
+      ]
+    },
+    {
+      "name": "scipy",
+      "version": "1.17.1",
+      "declared_license_summary": "Copyright (c) 2001-2002 Enthought, Inc. 2003, SciPy Developers.",
+      "classifiers": [
+        "License :: OSI Approved :: BSD License"
+      ],
+      "project_urls": [
+        "homepage, https://scipy.org/",
+        "documentation, https://docs.scipy.org/doc/scipy/",
+        "source, https://github.com/scipy/scipy",
+        "download, https://github.com/scipy/scipy/releases",
+        "tracker, https://github.com/scipy/scipy/issues"
+      ]
+    },
+    {
+      "name": "six",
+      "version": "1.17.0",
+      "declared_license_summary": "MIT",
+      "classifiers": [
+        "License :: OSI Approved :: MIT License"
+      ],
+      "project_urls": []
+    },
+    {
+      "name": "statsmodels",
+      "version": "0.14.6",
+      "declared_license_summary": "BSD License",
+      "classifiers": [
+        "License :: OSI Approved :: BSD License"
+      ],
+      "project_urls": [
+        "Bug Tracker, https://github.com/statsmodels/statsmodels/issues",
+        "Documentation, https://www.statsmodels.org/stable/index.html",
+        "Source Code, https://github.com/statsmodels/statsmodels"
+      ]
+    },
+    {
+      "name": "sympy",
+      "version": "1.14.0",
+      "declared_license_summary": "BSD",
+      "classifiers": [
+        "License :: OSI Approved :: BSD License"
+      ],
+      "project_urls": [
+        "Source, https://github.com/sympy/sympy"
+      ]
+    },
+    {
+      "name": "tabulate",
+      "version": "0.10.0",
+      "declared_license_summary": "MIT",
+      "classifiers": [],
+      "project_urls": [
+        "Homepage, https://github.com/astanin/python-tabulate"
+      ]
+    },
+    {
+      "name": "uncertainties",
+      "version": "3.2.3",
+      "declared_license_summary": "Revised BSD License",
+      "classifiers": [
+        "License :: OSI Approved :: BSD License"
+      ],
+      "project_urls": [
+        "Documentation, https://uncertainties.readthedocs.io/",
+        "Repository, https://github.com/lmfit/uncertainties",
+        "Issues, https://github.com/lmfit/uncertainties/issues",
+        "Changelog, https://github.com/lmfit/uncertainties/blob/master/CHANGES.rst"
+      ]
+    },
+    {
+      "name": "xdg-base-dirs",
+      "version": "6.0.2",
+      "declared_license_summary": "ISC",
+      "classifiers": [
+        "License :: OSI Approved"
+      ],
+      "project_urls": [
+        "Repository, https://github.com/srstevenson/xdg-base-dirs"
+      ]
+    }
+  ]
+}
