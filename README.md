@@ -1,5 +1,16 @@
 # EIS–DRT Batch Analysis
 
+<details>
+<summary>☕ 支持作者</summary>
+
+如果这个项目对你有帮助，欢迎自愿赞赏，支持后续维护。感谢你的支持！
+
+使用微信扫描下方收款码：
+
+<img src="https://raw.githubusercontent.com/R3ze959/eis-drt-batch-analysis-skill/main/.github/assets/wechat-pay.jpg" alt="微信赞赏收款码" width="280" />
+
+</details>
+
 ### 从一批阻抗文件，到可检查、可比较、可追溯的分析结果。
 
 **1.0.0 · GPL-3.0-or-later · 本地计算 · 数据优先 · Codex Skill / Python CLI**
@@ -145,14 +156,3 @@ EIS 需要一致性审查时加 `--kk on --zhit on`。DRT 的减除候选用 `--
 ---
 
 **English summary:** A data-first, local EIS/DRT batch-analysis Skill and Python CLI. Independent EIS processing, audited DRT candidates, source provenance, structured exports and automatic diagnostic figures; presentation plots are opt-in. GPL-3.0-or-later. Release 1.0 is qualified on macOS arm64 with CPython 3.11; Windows/Linux remain unqualified. Numerical success is not experimental acceptance or mechanism identification.
-
-<details>
-<summary>☕ 支持作者</summary>
-
-如果这个项目对你有帮助，欢迎自愿赞赏，支持后续维护。感谢你的支持！
-
-使用微信扫描下方收款码：
-
-<img src="https://raw.githubusercontent.com/R3ze959/eis-drt-batch-analysis-skill/main/.github/assets/wechat-pay.jpg" alt="微信赞赏收款码" width="280" />
-
-</details>
